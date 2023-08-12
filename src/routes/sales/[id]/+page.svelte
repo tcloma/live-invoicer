@@ -11,7 +11,7 @@
 			class="flex flex-col gap-4 justify-center items-center p-4 text-black bg-white rounded-md shadow-md"
 		>
 			<p class="text-xl font-bold">{basket.ig_handle}</p>
-            {#each basket.expand.items as item}
+            {#each basket.expand?.items as item}
                 <div>
                     {item.name}
                 </div>

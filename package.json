@@ -19,6 +19,7 @@
 		"pocketbase-typegen": "^1.1.12"
 	},
 	"devDependencies": {
+		"@skeletonlabs/skeleton": "^1.11.0",
 		"autoprefixer": "^10.4.14",
 		"postcss": "^8.4.27",
 		"prettier": "^2.8.0",

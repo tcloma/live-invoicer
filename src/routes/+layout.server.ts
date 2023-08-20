@@ -1,7 +1,7 @@
 import { getSales } from '../pocketbase';
-import type { PageServerLoad } from './$types';
+import type { LayoutServerLoad } from './$types';
 
-export const load: PageServerLoad = async () => {
+export const load: LayoutServerLoad = async () => {
     return {
         sales: await getSales()
     };

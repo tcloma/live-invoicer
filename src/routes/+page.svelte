@@ -2,8 +2,6 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
-
-	console.log(data.sales);
 </script>
 
 {#each data.sales as sale}
